@@ -10,6 +10,7 @@
         <module name="manage-config-service" />
         <module name="manage-database-service" />
         <module name="manage-eureka-service" />
+        <module name="manage-redis-service" />
         <module name="manage-user-service" />
       </profile>
     </annotationProcessing>
