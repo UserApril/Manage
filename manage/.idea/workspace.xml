@@ -2,14 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef38beb0-c8cc-44ec-8841-5ecdf13ef2d1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/manage-config-service/src/main/resources-filter/dev/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/manage-config-service/src/main/resources-filter/dev/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/manage-config-service/src/main/resources/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/manage-config-service/src/main/resources/logback.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/manage-config-service/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/manage-config-service/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/manage-database-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/manage-database-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/manage-database-service/src/main/java/com/rongzhi/database/service/DatabaseServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/manage-database-service/src/main/java/com/rongzhi/database/service/DatabaseServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manage-config-service/target/classes/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/manage-config-service/target/classes/logback.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manage-database-service/src/main/resources-filter/dev/bootstrap.properties" beforeDir="false" afterPath="$PROJECT_DIR$/manage-database-service/src/main/resources-filter/dev/bootstrap.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/manage-database-service/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/manage-database-service/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/manage-database-service/target/classes/com/rongzhi/database/service/DatabaseServiceApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/manage-database-service/target/classes/com/rongzhi/database/service/DatabaseServiceApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/manage-eureka-service/src/main/resources/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/manage-eureka-service/src/main/resources/logback.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manage-database-service/target/classes/bootstrap.properties" beforeDir="false" afterPath="$PROJECT_DIR$/manage-database-service/target/classes/bootstrap.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manage-eureka-service/target/classes/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/manage-eureka-service/target/classes/logback.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -24,6 +22,7 @@
     <ignored path="$PROJECT_DIR$/manage-database-service/target/" />
     <ignored path="$PROJECT_DIR$/manage-user-service/target/" />
     <ignored path="$PROJECT_DIR$/manage-redis-service/target/" />
+    <ignored path="$PROJECT_DIR$/manage-web-service/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +36,17 @@
     <favorites_list name="manage" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/manage-web-service/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -74,8 +83,6 @@
         <option value="$PROJECT_DIR$/manage-redis-service/src/main/java/com/rongzhi/redis/service/RedisServiceApplication.java" />
         <option value="$PROJECT_DIR$/manage-user-service/src/main/resources-filter/dev/bootstrap.properties" />
         <option value="$PROJECT_DIR$/manage-database-service/src/main/java/com.rongzhi.database.service/ConfigServerApplication.java" />
-        <option value="$PROJECT_DIR$/manage-database-service/src/main/resources-filter/dev/bootstrap.properties" />
-        <option value="$PROJECT_DIR$/manage-database-service/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/manage-config-service/src/main/resources-filter/dev/application.properties" />
         <option value="$PROJECT_DIR$/manage-database-service/src/main/java/com/rongzhi/database/service/DatabaseServiceApplication.java" />
         <option value="$PROJECT_DIR$/manage-database-service/src/main/resources/logback.xml" />
@@ -85,6 +92,8 @@
         <option value="$PROJECT_DIR$/manage-database-service/pom.xml" />
         <option value="$PROJECT_DIR$/manage-database-service/src/main/java/com/rongzhi/database/service/druid/DatabaseConfiguration.java" />
         <option value="$PROJECT_DIR$/manage-database-service/src/main/java/com/rongzhi/database/service/config/JdbcConfig.java" />
+        <option value="$PROJECT_DIR$/manage-database-service/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/manage-database-service/src/main/resources-filter/dev/bootstrap.properties" />
       </list>
     </option>
   </component>
@@ -107,7 +116,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="351" />
     <option name="y" value="23" />
     <option name="width" value="1038" />
@@ -253,52 +262,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="manage" type="b2602c69:ProjectViewProjectNode" />
-              <item name="manage" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="manage" type="b2602c69:ProjectViewProjectNode" />
-              <item name="manage" type="462c0819:PsiDirectoryNode" />
-              <item name="manage-database-service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="manage" type="b2602c69:ProjectViewProjectNode" />
-              <item name="manage" type="462c0819:PsiDirectoryNode" />
-              <item name="manage-database-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="manage" type="b2602c69:ProjectViewProjectNode" />
-              <item name="manage" type="462c0819:PsiDirectoryNode" />
-              <item name="manage-database-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="manage" type="b2602c69:ProjectViewProjectNode" />
-              <item name="manage" type="462c0819:PsiDirectoryNode" />
-              <item name="manage-database-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="manage" type="b2602c69:ProjectViewProjectNode" />
-              <item name="manage" type="462c0819:PsiDirectoryNode" />
-              <item name="manage-database-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="PackagesPane">
         <subPane>
           <expand>
@@ -309,6 +272,22 @@
             <path>
               <item name="manage" type="58d84e3e:PackageViewProjectNode" />
               <item name="manage-config-service" type="616d4139:PackageViewModuleNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="manage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="manage" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="manage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="manage" type="462c0819:PsiDirectoryNode" />
+              <item name="manage-web-service" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -325,8 +304,8 @@
     <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553245324940" />
-    <property name="last_opened_file_path" value="D:/ifp_bug_fix" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553315302234" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/crm-master" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -362,7 +341,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.DatabaseServiceApplication">
+  <component name="RunManager" selected="Spring Boot.EurekaServerApplication">
     <configuration name="ConfigServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="manage-config-service" />
       <extension name="coverage">
@@ -418,9 +397,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.EurekaServerApplication" />
         <item itemvalue="Spring Boot.DatabaseServiceApplication" />
         <item itemvalue="Spring Boot.ConfigServerApplication" />
-        <item itemvalue="Spring Boot.EurekaServerApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -438,18 +417,20 @@
       <workItem from="1553150247588" duration="4816000" />
       <workItem from="1553157053090" duration="1590000" />
       <workItem from="1553162913372" duration="113000" />
-      <workItem from="1553237869993" duration="7268000" />
+      <workItem from="1553237869993" duration="8063000" />
+      <workItem from="1553313949378" duration="1208000" />
+      <workItem from="1553320150683" duration="7000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18478000" />
+    <option name="totallyTimeSpent" value="20488000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4987593" visible="true" weight="0.3214826" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4987593" visible="true" weight="0.33207262" />
       <window_info id="Structure" order="1" sideWeight="0.5017065" side_tool="true" weight="0.3214826" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -459,7 +440,7 @@
       <window_info id="Web" order="7" sideWeight="0.5017065" side_tool="true" weight="0.3214826" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32935154" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.31228667" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.51877135" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -601,16 +582,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/manage-database-service/src/main/java/com.rongzhi.database.service/ConfigServerApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="24" column="19" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/manage-database-service/src/main/java/com.rongzhi.database.service/DatabaseApplicationServer.class">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/manage-database-service/src/main/java/com.rongzhi.database.service/ConfigServerApplication.java" />
+    <entry file="file://$PROJECT_DIR$/manage-database-service/src/main/java/com.rongzhi.database.service/DatabaseApplicationServer.class" />
     <entry file="file://$PROJECT_DIR$/manage-redis-service/src/main/java/com/rongzhi/redis/service/RedisServiceApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
@@ -618,30 +591,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/manage-database-service/src/main/resources/generatorConfig.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/manage-database-service/src/main/resources/generator.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/manage-database-service/src/main/resources/generatorConfig.xml" />
+    <entry file="file://$PROJECT_DIR$/manage-database-service/src/main/resources/generator.properties" />
     <entry file="file://$PROJECT_DIR$/manage-eureka-service/src/main/resources-filter/dev/application.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="18">
           <caret line="3" column="30" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/manage-database-service/src/main/resources-filter/dev/bootstrap.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" column="31" lean-forward="true" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/manage-database-service/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
-          <caret line="17" selection-start-line="17" selection-end-line="17" selection-end-column="11" />
         </state>
       </provider>
     </entry>
@@ -728,6 +683,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/manage-database-service/src/main/java/com/rongzhi/database/service/config/JdbcConfig.java">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage-database-service/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="56" column="37" lean-forward="true" selection-start-line="56" selection-start-column="37" selection-end-line="56" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage-database-service/src/main/resources-filter/dev/bootstrap.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="28" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage-web-service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">

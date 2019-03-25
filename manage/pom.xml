@@ -15,6 +15,7 @@
         <module>manage-database-service</module>
         <module>manage-user-service</module>
         <module>manage-redis-service</module>
+        <module>manage-web-service</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>

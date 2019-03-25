@@ -12,6 +12,7 @@
         <module name="manage-eureka-service" />
         <module name="manage-redis-service" />
         <module name="manage-user-service" />
+        <module name="manage-web-service" />
       </profile>
     </annotationProcessing>
   </component>
