@@ -7,28 +7,228 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="32a5a905-e7f6-43f5-ba90-b88f0bb4b5af" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/neuedu/crm/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/neuedu/crm/controller/LoginController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/neuedu/crm/controller/RoleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/neuedu/crm/controller/RoleController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/neuedu/crm/utils/Md5Util.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/neuedu/crm/utils/Md5Util.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/properties/db_config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/properties/db_config.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/properties/redis.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/properties/redis.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/pages/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/pages/login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/views/customer/search.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/views/customer/search.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/crm/controller/LoginController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/neuedu/crm/controller/LoginController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/crm/controller/RoleController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/neuedu/crm/controller/RoleController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/crm/utils/Md5Util.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/neuedu/crm/utils/Md5Util.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/properties/db_config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/properties/db_config.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/properties/redis.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/properties/redis.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/crm2.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/crm2.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/crm2/WEB-INF/classes/com/neuedu/crm/controller/LoginController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/crm2/WEB-INF/classes/com/neuedu/crm/controller/LoginController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/crm2/WEB-INF/classes/com/neuedu/crm/controller/RoleController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/crm2/WEB-INF/classes/com/neuedu/crm/controller/RoleController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/crm2/WEB-INF/classes/com/neuedu/crm/utils/Md5Util.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/crm2/WEB-INF/classes/com/neuedu/crm/utils/Md5Util.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/crm2/WEB-INF/classes/properties/db_config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/crm2/WEB-INF/classes/properties/db_config.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/crm2/WEB-INF/classes/properties/redis.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/crm2/WEB-INF/classes/properties/redis.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/crm2/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/crm2/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/crm2/pages/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/crm2/pages/login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/crm2/views/customer/search.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/crm2/views/customer/search.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/crm/aop/LogAop.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/crm/controller/CustomerCareController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/crm/controller/CustomerController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/crm/controller/CustomerLossController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/crm/controller/CustomerTransferController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/crm/controller/DictionaryItemController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/crm/controller/DictionaryTypeController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/crm/controller/FileController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/crm/controller/FollowUpController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/crm/controller/LinkmanController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/crm/controller/LoggingController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/crm/controller/LoginController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/crm/controller/OrdersController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/crm/controller/PermissionController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/crm/controller/ProductController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/crm/controller/ReportController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/crm/controller/RoleController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/crm/controller/SaleOpportunityController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/crm/controller/ServiceController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/crm/controller/SystemController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/crm/controller/UploadController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/crm/controller/UserController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/crm/controller/VerifyCodeController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/crm/exception/MyExceptionHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/crm/interceptor/MethodCacheInterceptor$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/crm/interceptor/MethodCacheInterceptor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/crm/mapper/CategoryMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/crm/mapper/CustomerCareMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/crm/mapper/CustomerLossMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/crm/mapper/CustomerMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/crm/mapper/CustomerTransferMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/crm/mapper/DictionaryItemMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/crm/mapper/DictionaryTypeMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/crm/mapper/FollowUpMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/crm/mapper/LinkmanMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/crm/mapper/LogMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/crm/mapper/LoggingEventMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/crm/mapper/MyBatisBaseDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/crm/mapper/OrderItemMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/crm/mapper/OrdersMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/crm/mapper/PermissionMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/crm/mapper/ProductMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/crm/mapper/ReportMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/crm/mapper/RoleMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/crm/mapper/RolePermissionMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/crm/mapper/SaleOpportunityMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/crm/mapper/ServiceMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/crm/mapper/ServiceTransferMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/crm/mapper/UserMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/crm/pojo/Category.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/crm/pojo/CategoryExample$Criteria.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/crm/pojo/CategoryExample$Criterion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/crm/pojo/CategoryExample$GeneratedCriteria.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/crm/pojo/CategoryExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/crm/pojo/CpuInfoVo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/crm/pojo/Customer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/crm/pojo/CustomerCare.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/crm/pojo/CustomerCareExample$Criteria.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/crm/pojo/CustomerCareExample$Criterion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/crm/pojo/CustomerCareExample$GeneratedCriteria.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/crm/pojo/CustomerCareExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/crm/pojo/CustomerExample$Criteria.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/crm/pojo/CustomerExample$Criterion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/crm/pojo/CustomerExample$GeneratedCriteria.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/crm/pojo/CustomerExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/crm/pojo/CustomerLoss.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/crm/pojo/CustomerLossExample$Criteria.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/crm/pojo/CustomerLossExample$Criterion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/crm/pojo/CustomerLossExample$GeneratedCriteria.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/crm/pojo/CustomerLossExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/crm/pojo/CustomerTransfer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/crm/pojo/CustomerTransferExample$Criteria.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/crm/pojo/CustomerTransferExample$Criterion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/crm/pojo/CustomerTransferExample$GeneratedCriteria.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/crm/pojo/CustomerTransferExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/crm/pojo/DictionaryItem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/crm/pojo/DictionaryItemExample$Criteria.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/crm/pojo/DictionaryItemExample$Criterion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/crm/pojo/DictionaryItemExample$GeneratedCriteria.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/crm/pojo/DictionaryItemExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/crm/pojo/DictionaryType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/crm/pojo/DictionaryTypeExample$Criteria.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/crm/pojo/DictionaryTypeExample$Criterion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/crm/pojo/DictionaryTypeExample$GeneratedCriteria.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/crm/pojo/DictionaryTypeExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/crm/pojo/FollowUp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/crm/pojo/FollowUpExample$Criteria.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/crm/pojo/FollowUpExample$Criterion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/crm/pojo/FollowUpExample$GeneratedCriteria.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/crm/pojo/FollowUpExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/crm/pojo/Linkman.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/crm/pojo/LinkmanExample$Criteria.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/crm/pojo/LinkmanExample$Criterion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/crm/pojo/LinkmanExample$GeneratedCriteria.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/crm/pojo/LinkmanExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/crm/pojo/Log.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/crm/pojo/LogExample$Criteria.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/crm/pojo/LogExample$Criterion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/crm/pojo/LogExample$GeneratedCriteria.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/crm/pojo/LogExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/crm/pojo/LoggingEvent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/crm/pojo/LoggingEventExample$Criteria.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/crm/pojo/LoggingEventExample$Criterion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/crm/pojo/LoggingEventExample$GeneratedCriteria.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/crm/pojo/LoggingEventExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/crm/pojo/OrderItem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/crm/pojo/OrderItemExample$Criteria.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/crm/pojo/OrderItemExample$Criterion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/crm/pojo/OrderItemExample$GeneratedCriteria.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/crm/pojo/OrderItemExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/crm/pojo/Orders.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/crm/pojo/OrdersExample$Criteria.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/crm/pojo/OrdersExample$Criterion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/crm/pojo/OrdersExample$GeneratedCriteria.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/crm/pojo/OrdersExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/crm/pojo/Pager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/crm/pojo/Permission.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/crm/pojo/PermissionExample$Criteria.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/crm/pojo/PermissionExample$Criterion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/crm/pojo/PermissionExample$GeneratedCriteria.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/crm/pojo/PermissionExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/crm/pojo/Product.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/crm/pojo/ProductExample$Criteria.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/crm/pojo/ProductExample$Criterion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/crm/pojo/ProductExample$GeneratedCriteria.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/crm/pojo/ProductExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/crm/pojo/Report.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/crm/pojo/Role.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/crm/pojo/RoleExample$Criteria.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/crm/pojo/RoleExample$Criterion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/crm/pojo/RoleExample$GeneratedCriteria.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/crm/pojo/RoleExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/crm/pojo/RolePermission.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/crm/pojo/RolePermissionExample$Criteria.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/crm/pojo/RolePermissionExample$Criterion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/crm/pojo/RolePermissionExample$GeneratedCriteria.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/crm/pojo/RolePermissionExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/crm/pojo/SaleOpportunity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/crm/pojo/SaleOpportunityExample$Criteria.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/crm/pojo/SaleOpportunityExample$Criterion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/crm/pojo/SaleOpportunityExample$GeneratedCriteria.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/crm/pojo/SaleOpportunityExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/crm/pojo/ServerInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/crm/pojo/Service.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/crm/pojo/ServiceExample$Criteria.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/crm/pojo/ServiceExample$Criterion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/crm/pojo/ServiceExample$GeneratedCriteria.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/crm/pojo/ServiceExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/crm/pojo/ServiceTransfer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/crm/pojo/ServiceTransferExample$Criteria.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/crm/pojo/ServiceTransferExample$Criterion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/crm/pojo/ServiceTransferExample$GeneratedCriteria.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/crm/pojo/ServiceTransferExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/crm/pojo/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/crm/pojo/UserExample$Criteria.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/crm/pojo/UserExample$Criterion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/crm/pojo/UserExample$GeneratedCriteria.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/crm/pojo/UserExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/crm/service/ICategoryService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/crm/service/ICustomerCareService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/crm/service/ICustomerLossService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/crm/service/ICustomerService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/crm/service/ICustomerTransferService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/crm/service/IDictionaryItemService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/crm/service/IDictionaryTypeService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/crm/service/IFollowUpService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/crm/service/ILinkmanService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/crm/service/ILogService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/crm/service/ILoggingEventService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/crm/service/ILoginService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/crm/service/IOrderItemService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/crm/service/IOrdersService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/crm/service/IPermissionService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/crm/service/IProductService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/crm/service/IReportService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/crm/service/IRolePermissionService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/crm/service/IRoleService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/crm/service/ISaleOpportunityService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/crm/service/IServerInfoService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/crm/service/IServiceService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/crm/service/IServiceTransferService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/crm/service/IUserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/crm/service/impl/CategoryServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/crm/service/impl/CustomerCareServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/crm/service/impl/CustomerLossServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/crm/service/impl/CustomerServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/crm/service/impl/CustomerTransferServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/crm/service/impl/DictionaryItemServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/crm/service/impl/DictionaryTypeServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/crm/service/impl/FollowUpServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/crm/service/impl/LinkmanServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/crm/service/impl/LogServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/crm/service/impl/LoggingEventServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/crm/service/impl/LoginServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/crm/service/impl/OrderItemServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/crm/service/impl/OrdersServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/crm/service/impl/PermissionServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/crm/service/impl/ProductServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/crm/service/impl/ReportServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/crm/service/impl/RolePermissionServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/crm/service/impl/RoleServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/crm/service/impl/SaleOpportunityServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/crm/service/impl/ServiceServerInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/crm/service/impl/ServiceServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/crm/service/impl/ServiceTransferServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/crm/service/impl/UserServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/crm/shiro/filter/FilterChainDefinitionMapBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/crm/shiro/realm/ShiroRealm.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/crm/task/CheckBirthdayTask.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/crm/utils/IpAdrressUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/crm/utils/LocalDateConverter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/crm/utils/LocalDateTimeConverter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/crm/utils/LocalDateTimeUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/crm/utils/MailUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/crm/utils/Md5Util.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/crm/utils/Operation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/crm/utils/RandomStringUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/crm/utils/RedisUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/crm/utils/RequestUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/crm/utils/SigarUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/crm/utils/TaskController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/crm/utils/TimeStamp.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -58,7 +258,17 @@
     <favorites_list name="crm2" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/neuedu/crm/shiro/filter/FilterChainDefinitionMapBuilder.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="121">
+              <caret line="22" column="62" selection-start-line="22" selection-start-column="62" selection-end-line="22" selection-end-column="62" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -70,7 +280,7 @@
   </component>
   <component name="Git.Settings">
     <option name="ROOT_SYNC" value="DONT_SYNC" />
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -87,6 +297,12 @@
       </list>
     </option>
   </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
     <option name="FILTER_WARNINGS" value="false" />
@@ -97,7 +313,7 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="D:/apache-maven-3.5.4" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../apache-maven-3.5.4" />
         <option name="userSettingsFile" value="D:\newtools\.m2\settings.xml" />
       </MavenGeneralSettings>
     </option>
@@ -123,7 +339,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="351" />
     <option name="y" value="23" />
     <option name="width" value="1038" />
@@ -135,7 +351,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope">
         <subPane subId="Scope 'Production'; set:Production; class com.intellij.psi.search.scope.ProjectProductionScope">
           <expand>
@@ -147,12 +362,13 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="crm2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="crm-master" type="462c0819:PsiDirectoryNode" />
+              <item name="idea_workspace" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -167,10 +383,11 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -295,16 +512,17 @@
       <workItem from="1553650726241" duration="3767000" />
       <workItem from="1553661857669" duration="18000" />
       <workItem from="1553666459694" duration="2764000" />
+      <workItem from="1553676378623" duration="738000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31314000" />
+    <option name="totallyTimeSpent" value="32052000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.79522187" visible="true" weight="0.24810892" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.79522187" visible="true" weight="0.25189108" />
       <window_info id="Structure" order="1" sideWeight="0.5025381" side_tool="true" weight="0.35854766" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -323,7 +541,7 @@
       <window_info anchor="bottom" id="Spring" order="8" weight="0.32879046" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.32764506" />
+      <window_info active="true" anchor="bottom" id="Messages" order="11" visible="true" weight="0.32764506" />
       <window_info anchor="bottom" id="Terminal" order="12" weight="0.32879046" />
       <window_info anchor="bottom" id="Java Enterprise" order="13" />
       <window_info anchor="bottom" id="Database Changes" order="14" />
@@ -341,6 +559,10 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -458,13 +680,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
           <caret line="18" column="11" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/neuedu/crm/shiro/filter/FilterChainDefinitionMapBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -697,9 +912,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/neuedu/crm/shiro/filter/FilterChainDefinitionMapBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="121">
+          <caret line="22" column="62" selection-start-line="22" selection-start-column="62" selection-end-line="22" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
   </component>
   <component name="masterDetails">
     <states>
+      <state key="ArquillianSettingsConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
@@ -716,7 +949,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>Spring</last-edited>
+          <last-edited>Spring (crm2)|Spring</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
