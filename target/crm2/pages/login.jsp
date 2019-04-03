@@ -161,7 +161,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 
     </div>
     <div class="cr-footer"> 
-    © 融智典尚 － 以极简方式管理客户和业务过程
+    © 融智典尚 － 为发烧而生
     </div>
 </div>
   
