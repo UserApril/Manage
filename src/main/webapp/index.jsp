@@ -7,7 +7,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-	<title>融智典尚客户关系管理系统</title>
+	<title>融智典尚管理系统</title>
 	<!-- build:css -->
 	<link rel="stylesheet" href="layui/css/layui.css">
 	<link rel="stylesheet" href="layui/css/kitadmin.css">
@@ -26,7 +26,7 @@
 					<i class="layui-icon">&#xe65a;</i>
 				</div>
 				<div class="layui-logo-brand" style="width: 174px;">
-					<a href="#/">客户关系管理系统</a>
+					<a href="#/">系统主页</a>
 				</div>
 			</div>
 			<!-- <div class="layui-layout-left">
